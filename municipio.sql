@@ -12,3 +12,9 @@ create table municipios
 	id_municipios int primary key,
     nome varchar(100) not null
 );
+
+create table estado
+(
+	id_estado int,
+    nome varchar (50)
+);
